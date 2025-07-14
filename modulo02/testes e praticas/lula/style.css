@@ -1,0 +1,66 @@
+:root{
+    --cor1: #BB271F;
+    --cor2: #9135309d;
+    --cor3: #E60B01;
+    --cor4: #663633;
+    --cor5: #3C2928;
+    --cor6: #332B2B;
+}
+
+body {
+    background-color: var(--cor2);
+    margin: 0;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor6));
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: gray;
+    padding: 20px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+nav > a:hover{
+    color: var(--cor6);
+    background-color: white;
+    transition: 0.5s;
+}
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    height: 270px;
+}
+.container > img {
+    margin: 10px;
+    height: 250px;
+    width: 210px;
+}
+.container > p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+aside {
+    padding-bottom: 10px;
+}
+

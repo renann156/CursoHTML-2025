@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:gray;
+        }
+        a::after{
+            content: ' [link]';
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        img:hover {
+            height: 600px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursos/" target="_blank">Site do Curso em video</a></li>
+        
+    </ul>
+    <img src="175026782456c90a9c725d1cfe40d9d2269970ace3.jpg" alt="">
+</body>
+</html>
