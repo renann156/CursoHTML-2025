@@ -11,6 +11,9 @@ body {
     background-color: var(--cor2);
     margin: 0;
 }
+h1{
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.304);
+}
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -45,6 +48,8 @@ main {
     max-width: 1000px;
     padding: 20px;
     margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.31);
 }
 .container {
     display: flex;
@@ -62,5 +67,11 @@ main {
 
 aside {
     padding-bottom: 10px;
+    
 }
-
+footer{
+    color: white;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}

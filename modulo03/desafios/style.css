@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header h1 {
+    font-size: 4em;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main  p {
+    /* padding: 200px; */
+    font-size: 3em;
+    line-height: 1.7em;
+    font-family: "Pangolin", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 90px;
+    margin: 0;
+
+}
+.container{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.307);
+    padding: 0px;
+    width: 550px;
+    height: 580px;
+}
+div#q1{
+    padding: 90px;
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#q2{
+    padding: 90px;
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
