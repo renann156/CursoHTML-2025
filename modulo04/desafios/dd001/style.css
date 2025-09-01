@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+img{
+    width: 54vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large
+}
+button{
+    height: 100px;
+    width: 54vh;
+    background-color: crimson;
+    border: 3px solid black;
+    padding: 0;
+}

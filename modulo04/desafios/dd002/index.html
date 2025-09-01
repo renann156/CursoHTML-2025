@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <section>
+        <form action="script.js" method="post">
+            <h1>Login</h1>
+            <p id="texto">
+                Seja bem-vinde novamente! Digite suas informações para acessar o site.
+            </p>
+            <p>
+                <label for="iusuario">Usuário:</label>
+                <input type="text" class="campo" id="iusuario" required>
+            </p>
+            <p>
+                <label for="isenha">Senha: </label>
+                <input type="password" class="campo" id="isenha" required minlength="6" maxlength="12" placeholder="Entre 6 e 12 digitos">
+            </p>
+            <p>
+                <input type="submit" class="botao" value="Entrar">
+            </p>
+            <p>
+                <input type="submit" class="botao" value="Esqueci minha senha">
+            </p>
+            <div id="imagem">
+
+            </div>
+        </form>
+        
+    </section>
+</body>
+</html>

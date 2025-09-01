@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio iframe</title>
+    <style>
+        body{
+            background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+            background-size: cover;
+        }
+        div#celular{
+            margin: auto; 
+            background-image: url(pacote-d013/imagens/frame-iphone.png);
+            height: 627px;
+            width: 350px;
+            background-repeat: no-repeat;
+        }
+        iframe{
+            display: inline-block;
+            margin: auto;
+            margin-top: 78px;
+            margin-left: 20px;
+            height: 65vh;
+            width: 37vh;
+            background-image: url(pacote-d013/imagens/tela-home.jpg);
+            background-size: cover;
+            
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: 10px;
+            
+        }
+
+        div#links{
+            position: absolute;
+            right: 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="links">
+        <img src="pacote-d013/imagens/logo-home.jpg" alt=""> <br>
+        <a href="index2.html" target="frame"><img src="pacote-d013/imagens/logo-youtube.jpg" alt=""></a>  <br>
+        <a href="github.html" target="frame"><img src="pacote-d013/imagens/logo-github.jpg" alt=""></a> <br>
+        <img src="pacote-d013/imagens/logo-instagram.jpg" alt=""> <br>
+        <img src="pacote-d013/imagens/logo-twitter.jpg" alt=""> <br>
+        <img src="pacote-d013/imagens/logo-facebook.jpg" alt=""> <br>
+
+    </div>
+    <div id="celular">
+        <iframe src="" frameborder="0" name="frame"></iframe>
+        
+    </div>
+</body>
+</html>
